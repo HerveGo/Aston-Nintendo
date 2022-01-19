@@ -1,0 +1,9 @@
+html, body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-left: 88px;
+}

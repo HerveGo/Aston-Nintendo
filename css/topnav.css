@@ -1,0 +1,31 @@
+/* Style pour la barre de navigation */
+
+.topnav {
+    width: 100%;
+    height:72px;
+    background-color: #E60012;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow:hidden;
+    position: sticky;
+    top: 0;
+    left: 100;
+}
+
+.topnav a {
+    cursor: pointer;
+    float:right;
+    text-align: center;
+    padding: 12px;
+    color:white;
+}
+
+.topnav a :hover {
+    text-decoration: underline;
+}
+
+.topnav a img {
+    height: 24px;
+    width: auto;
+    text-align: center;
+}
