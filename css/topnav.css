@@ -1,11 +1,14 @@
 /* Style pour la barre de navigation */
 
 .topnav {
+    font-size: 0.7em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 100%;
     height:72px;
     background-color: #E60012;
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     overflow:hidden;
     position: sticky;
     top: 0;
@@ -19,8 +22,8 @@
     padding: 12px;
     color:white;
 }
-
-.topnav a :hover {
+/* Souligne le texte en span */
+.topnav a span :hover {
     text-decoration: underline;
 }
 
@@ -28,4 +31,10 @@
     height: 24px;
     width: auto;
     text-align: center;
+}
+
+#logo {
+    position: absolute;
+    left:0;
+    vertical-align: middle;
 }
