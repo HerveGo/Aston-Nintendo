@@ -1,0 +1,84 @@
+/* Right side bar */
+
+.onethird {
+    width: 33%;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 12px;
+    margin: 4px;
+}
+
+.onefourth {
+    width: 25%;
+    float: left;
+}
+.threefourth {
+    width: 75%;
+    float: left;
+    padding-left: 8px;
+}
+.threefourth a {
+    text-decoration: none;
+}
+.threefourth a:hover {
+    text-decoration: underline black;
+}
+.img-responsive {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.right-header {
+    background-color: white;
+    border-left: 4px solid #f4f4f4;
+    height: 100%;
+    padding: 8px;
+}
+
+.right-title {
+    margin:0;
+    background-color: white;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.right-subtitle {
+    margin:0;
+    background-color: white;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.1;
+    float:left;
+}
+
+.right-description {
+    font-size: 0.9em;
+    color: #666;
+    float:left;
+}
+
+.right-more {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    padding: 12px;
+    margin: 4px;
+}
+.right-more a {
+    text-decoration: none;
+}
+.right-more a:hover {
+    text-decoration: underline black;
+}
