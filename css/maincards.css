@@ -19,14 +19,30 @@
     flex-wrap:nowrap;
 }
 
-.grid-container {
+.grid-container-l {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 4px;
 }
-.grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+.grid-container-l > div {
+    background-color: transparent;
     text-align: center;
-    padding: 20px 0;
+    padding: 0;
     font-size: 30px;
-  }
+}
+
+.v2x1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.h1x2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-container-l img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
