@@ -4,6 +4,7 @@ html, body {
     padding: 0;
 }
 
-.main {
-    margin-left: 88px;
+* {
+    box-sizing: border-box;
 }
+
